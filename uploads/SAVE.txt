@@ -1,0 +1,8 @@
+USE mysql;
+UPDATE mysql.user SET Password = PASSWORD('mypass') WHERE User = 'root';
+FLULSH PRIVELEGES
+
+mysqld --defaults-file="C:\\ProgramData\\MySQL\\MySQL Server 5.7\\my.ini" 
+--init-file=C:\\mysql-init.txt
+
+mysqld --defaults-file="C:\\ProgramData\\MySQL\\MySQL Server 8.0\\my.ini" --init-file=C:\\mysql-init.txt
